@@ -44,7 +44,7 @@
 		00E356EE1AD99517003FC87E /* elsuperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = elsuperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* elsuperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = elsuperTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* elsuper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elsuper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* El Super.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "El Super.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = elsuper/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = elsuper/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* elsuper.app */,
+				13B07F961A680F5B00A75B9A /* El Super.app */,
 				00E356EE1AD99517003FC87E /* elsuperTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* elsuper-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* elsuper-tvOSTests.xctest */,
@@ -194,7 +194,6 @@
 				BB21F09454CD7DDF7EF178CB /* Pods-elsuper-tvOSTests.debug.xcconfig */,
 				4534E3DB71B33D83C575285E /* Pods-elsuper-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -237,7 +236,7 @@
 			);
 			name = elsuper;
 			productName = elsuper;
-			productReference = 13B07F961A680F5B00A75B9A /* elsuper.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* El Super.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D02E47A1E0B4A5D006451C7 /* elsuper-tvOS */ = {
@@ -643,7 +642,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = elsuper;
+				PRODUCT_NAME = "El Super";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -665,7 +664,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = elsuper;
+				PRODUCT_NAME = "El Super";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
