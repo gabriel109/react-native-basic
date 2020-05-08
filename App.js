@@ -6,15 +6,15 @@ import configureStore from './src/store/configureStore';
 import Navigator from './src/navigation/AuthStack';
 
 function App() {
-  const {store, persistor} = configureStore();
+  const { store, persistor } = configureStore();
   return (
     <Provider store={store}>
-    <PersistGate loading={null} persistor={persistor}>
-      <NavigationContainer>
-        <Navigator></Navigator>
-      </NavigationContainer>
-    </PersistGate>
-  </Provider>
+      <PersistGate loading={null} persistor={persistor}>
+        <NavigationContainer>
+          <Navigator />
+        </NavigationContainer>
+      </PersistGate>
+    </Provider>
   );
 }
 
