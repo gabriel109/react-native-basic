@@ -3,13 +3,13 @@ import React from 'react';
 import { Button, View, } from 'react-native';
 
 // COMPONENTS
-import Typography from '../components';
+import { Typography } from '../../components';
 
 // REDUX
 import { useDispatch } from 'react-redux';
-import { logout } from '../redux/actions';
+import { logout } from '../../redux/actions';
 
-function HomeScreen() {
+function Home() {
     const dispatch = useDispatch();
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
@@ -23,4 +23,4 @@ function HomeScreen() {
     );
 }
 
-export default HomeScreen;
+export default Home;

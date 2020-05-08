@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { View, Text, TextInput, TouchableOpacity } from 'react-native';
-import { login } from '../redux/actions';
-import styles from '../styles/Signin.js';
-import { Typography } from '../components';
+import { login } from '../../redux/actions';
+import styles from './styled.js';
+import { Typography } from '../../components';
 
-function SigninScreen() {
+function SignIn() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const auth = useSelector(state => state.auth);
@@ -33,4 +33,4 @@ function SigninScreen() {
     );
 }
 
-export default SigninScreen;
+export default SignIn;
