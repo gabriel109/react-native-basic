@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { View, Text, TextInput, TouchableOpacity } from 'react-native';
 import { login } from '../redux/actions';
 import styles from '../styles/Signin.js';
+import { Typography } from '../components';
 
 function SigninScreen() {
     const [email, setEmail] = useState('');
@@ -23,10 +24,10 @@ function SigninScreen() {
                 onChangeText={text => setPassword(text)}
             />
             <TouchableOpacity style={styles.button} onPress={() => dispatch(login(email, password))}>
-                <Text>Ingresar</Text>
+                <Typography>Ingresar</Typography>
             </TouchableOpacity>
             {auth.msgError &&
-                <Text>{auth.msgError}</Text>
+                <Typography>{auth.msgError}</Typography>
             }
         </View>
     );
