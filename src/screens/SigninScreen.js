@@ -11,8 +11,8 @@ function SigninScreen() {
     const dispatch = useDispatch();
     return (
         <View style={styles.container}>
-            <TextInput  
-                placeholder="Email..." 
+            <TextInput
+                placeholder="Email..."
                 style={styles.input}
                 onChangeText={text => setEmail(text)}
             />
@@ -27,7 +27,7 @@ function SigninScreen() {
             </TouchableOpacity>
             {auth.msgError &&
                 <Text>{auth.msgError}</Text>
-            }            
+            }
         </View>
     );
 }

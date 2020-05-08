@@ -6,23 +6,23 @@ export default StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: Colors.background,
+    backgroundColor: Colors.white,
   },
   input: {
     width: 250,
     marginBottom: 5,
-    padding: 10,      
+    padding: 10,
     borderWidth: 1,
     borderColor: 'lightgray',
     borderRadius: 20,
   },
   button: {
-    backgroundColor: Colors.button,
+    backgroundColor: Colors.blueSuperOnline,
     fontSize: 20,
     alignItems: 'center',
     justifyContent: 'center',
     width: 250,
     borderRadius: 20,
-    padding:10
+    padding: 10
   }
 });

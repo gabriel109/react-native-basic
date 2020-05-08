@@ -1,6 +1,7 @@
 const Colors = {
-    background: '#fff',
-    button: '#3399ff',
+    white: '#fff',
+    blueLight: '#3399ff',
+    blueSuperOnline: '#2B629B'
 }
-  
+
 export default Colors;
